@@ -1,0 +1,219 @@
+/*
+Pallete:
+#1D4070
+#BCD6fA
+
+Fonts:
+font-family: cheap-pine, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "nunito-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+*/
+@import url("https://use.typekit.net/sxk0sve.css");
+
+
+.wrapper{
+    box-sizing: border-box;
+	max-width: 45rem;
+	width:100%;
+    height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+    overflow: hidden;
+}
+main{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+}
+img{
+    width: 15rem;
+    max-width: auto;
+    display: flex;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 3rem;
+}
+.enter{
+    padding: 2rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;   
+}
+button{
+    background-color:#1D4070;
+    color: #BCD6fA;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 0.2rem;
+    border: none;
+    font-family: cheap-pine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+}
+button:hover{
+    background-color: #BCD6fA;
+    color: #1D4070;
+}
+ul.dynamic-content{
+    color:#1D4070; 
+    font-size: 2rem;
+    list-style: none;
+    font-family: "nunito-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1rem;
+    padding: .5rem;
+    text-align: left;
+}
+li{
+    border-top: 2px solid  #1D4070;;
+}
+item{
+    font-size: 1rem;
+}
+ul li::before {
+	content: "\266B";  
+	color: #1D4070; 
+    padding-right: .5rem;
+    font-size: 1rem;
+	width: .5rem; 
+	margin: 1rem;
+}
+h1{
+    font-size: 4rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    padding: 2rem;
+    color: #1D4070;
+    font-family: cheap-pine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #1D4070;
+    font-family: "nunito-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    padding: .5rem;
+    margin: 1rem;
+    font-family: "nunito-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #BCD6fA;
+    border-style: solid;
+    border-color: #1D4070;
+    border-width: 2px;
+    border-radius: .2rem;
+}
+p{
+    font-family: "nunito-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1D4070;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+/* FOOTER STYLES */
+footer{
+    background-color: #1D4070;
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-top: 0rem;
+}
+.social-icons{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    margin-left: 2rem;
+}  
+footer div ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+ul.social-icons{
+    padding-left: 0rem;
+}
+.fa-facebook{
+    color:#BCD6fA;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.fa-facebook:hover{
+    transition-timing-function: ease;
+    transform: scale(1.1);
+}
+.fa-twitter{
+    color: #BCD6fA;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.fa-twitter:hover{
+    transition-timing-function: ease;
+    transform: scale(1.1);
+}
+.fa-instagram{
+    color: #BCD6fA;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.fa-instagram:hover{
+    transition-timing-function: ease;
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width: 30rem){
+    img{
+        width: 20rem;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    ul.dynamic-content{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    item{
+        font-size: 1.6rem;
+    }
+    .social-icons{
+        margin-right: 4rem;
+    } 
+}
+
+@media only screen and (min-width: 40rem){
+    .social-icons{
+        margin-left: 8rem;
+    }  
+}
